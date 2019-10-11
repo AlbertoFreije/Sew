@@ -1,0 +1,38 @@
+body {
+    background: black;
+}
+
+p {
+    color: white;
+}
+a{
+    color: lightblue;
+}
+
+table{
+    color: white;
+}
+
+address{
+    font-size: xx-large;
+}
+header{
+    color: white;
+}
+
+ul{
+    color:white;
+}
+
+img{
+    color:white;
+}
+
+address{
+    color: white;
+    font-size: medium;
+}
+footer{
+    color: white;
+ }
+
