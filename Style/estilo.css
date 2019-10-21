@@ -1,13 +1,8 @@
-body {
-    font: 400 15px Tahoma, sans-serif;
-    line-height: 1.8;
-    color: #818181;
-    background-color: #f6f6f6;
-}
+
 h1 {
-    background-color:#FF5733;
-    color: #fff;
-    text-transform: uppercase;
-    padding: 100px 25px;
-    text-align: center;
+    font: 400 40px Tahoma, sans-serif;
+
+}
+h2, h3, h4, h5, h6{
+    font: 400 15px Calibri, sans-serif;;
 }
