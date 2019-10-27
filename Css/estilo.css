@@ -48,6 +48,14 @@ header nav a {
     text-decoration-line: none;
 }
 
+main{
+    margin: 0px;
+}
+
+section{
+    margin: 0px
+}
+
 main section a{
     color: aqua;
     margin: 20px 30px;
@@ -114,16 +122,16 @@ dd {
     color: grey;
 }
 
-main footer{
+footer{
     color: white;
     font-size: 20px;
 
 }
 
-main footer address {
+footer address {
     margin: 20px 30px;
 }
 
-main footer address a {
+footer address a {
     color: aqua;
 }
