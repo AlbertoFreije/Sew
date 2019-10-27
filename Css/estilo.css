@@ -78,7 +78,7 @@ article{
     margin: 20px;
 }
 
-p,dl,table{
+p,dl{
     font-family: Calibri, sans-serif;
     color: white;
     font-size: 25px;
@@ -87,8 +87,12 @@ p,dl,table{
 }
 
 table {
+    font-family: Calibri, sans-serif;
     width: 20%;
     border: 1px solid white;
+    font-size: 15px;
+    color: white;
+    background: black;
 }
 th, td {
     width: 25%;
