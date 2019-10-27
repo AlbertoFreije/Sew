@@ -1,68 +1,34 @@
 
 html{
     background-color: black;
-    overflow-x: hidden;
     margin: 0;
 }
 h1,h2,h3,h4,h5,h6{
+    background: dimgrey;
     font-weight: bold;
     text-transform: uppercase;
     color: white;
     padding: 0.1em;
     text-align: center;
-    align-content: center;
     letter-spacing : 0.4em;
     border-radius: 20px;
-}
-
-h2,h3,h4,h5,h6{
-    margin: 20px;
-}
-
-h1, h3, h5{
-    font-family: Calibri, sans-serif;
-    font-stretch: expanded;
-
-}
-
-h2, h4, h6{
-    font-family: italic, sans-serif;
-    background: dimgrey;
-
-
-}
-
-h3,h5{
-    background: dimgrey;
 }
 
 h1 {
     font-family: "Impact", sans-serif ;
     font-size: 3em;
-    background: dimgrey;
     text-align: center;
     border: solid white;
     margin: 10px -45px 20px -45px;
 }
-
-h2{
+h2,h3,h4,h5,h6{
+    margin: 20px;
+    font-family: Calibri, sans-serif;
     font-size: 1.5em;
 }
 
-h3{
-    font-size: 1.4em;
-}
-
-h4{
-    font-size: 1.2em;
-}
-
-h5{
-    font-size: 1.1em;
-}
-
-h6{
-    font-size: 1em;
+body{
+    background: black;
 }
 
 header{
@@ -78,7 +44,7 @@ header nav {
 
 header nav a {
     color: white;
-    font-size: 25px;
+    font-size: 20px;
     text-decoration-line: none;
     margin: 15px;
     padding: 4px;
@@ -89,25 +55,38 @@ main a{
     margin: 20px 30px;
 }
 
-body{
-    background: black;
-}
 
-p{
+main p{
     text-align: justify;
     margin:20px 30px;
 }
 
-body audio{
+p::first-letter {
+    font-size: 26px;
+}
+
+main audio{
     margin: 20px;
 }
 
-body video{
+main video{
     margin: 20px;
 }
 
 main img{
     margin: 20px 30px;
+}
+
+article{
+    margin: 20px;
+}
+
+p,dl,table{
+    font-family: Calibri, sans-serif;
+    color: white;
+    font-size: 25px;
+    background: black;
+
 }
 
 table {
@@ -134,18 +113,6 @@ dd {
     color: grey;
 }
 
-p,dl,table{
-    font-family: Calibri, sans-serif;
-    color: white;
-    font-size: 25px;
-    background: black;
-
-}
-
-p::first-letter {
-    font-size: 26px;
-}
-
 footer{
     color: white;
     font-size: 20px;
@@ -160,6 +127,3 @@ footer address a {
     color: aqua;
 }
 
-article{
-    margin: 20px;
-}
