@@ -32,8 +32,8 @@ body{
 
 header{
     background: black;
-    padding: 2em;
-    margin: 20px;
+    margin: 15px;
+    padding: 10px;
 }
 
 header nav {
@@ -44,9 +44,8 @@ header nav {
 header nav a {
     color: white;
     font-size: 20px;
-    text-decoration-line: none;
-    margin: 15px;
-    padding: 4px;
+    word-spacing: 1px;
+    margin: 1px 15px;
 }
 
 main a{
