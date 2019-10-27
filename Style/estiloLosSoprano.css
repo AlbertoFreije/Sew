@@ -1,8 +1,165 @@
 
-h1 {
-    font: 400 40px Tahoma, sans-serif;
+html{
+    background-color: black;
+    overflow-x: hidden;
+    margin: 0;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    padding: 0.1em;
+    text-align: center;
+    align-content: center;
+    letter-spacing : 0.4em;
+    border-radius: 20px;
+}
+
+h2,h3,h4,h5,h6{
+    margin: 20px;
+}
+
+h1, h3, h5{
+    font-family: Calibri, sans-serif;
+    font-stretch: expanded;
 
 }
-h2, h3, h4, h5, h6{
-    font: 400 15px Calibri, sans-serif;;
+
+h2, h4, h6{
+    font-family: italic, sans-serif;
+    background: dimgrey;
+
+
+}
+
+h3,h5{
+    background: dimgrey;
+}
+
+h1 {
+    font-family: "Impact", sans-serif ;
+    font-size: 3em;
+    background: dimgrey;
+    text-align: center;
+    border: solid white;
+    margin: 10px -45px 20px -45px;
+}
+
+h2{
+    font-size: 1.5em;
+}
+
+h3{
+    font-size: 1.4em;
+}
+
+h4{
+    font-size: 1.2em;
+}
+
+h5{
+    font-size: 1.1em;
+}
+
+h6{
+    font-size: 1em;
+}
+
+header{
+    background: black;
+    padding: 2em;
+    margin: 20px;
+}
+
+header nav {
+    background: black;
+    text-align: center;
+}
+
+header nav a {
+    color: white;
+    font-size: 25px;
+    text-decoration-line: none;
+    margin: 15px;
+    padding: 4px;
+}
+
+main a{
+    color: aqua;
+    margin: 20px 30px;
+}
+
+body{
+    background: black;
+}
+
+p{
+    text-align: justify;
+    margin:20px 30px;
+}
+
+body audio{
+    margin: 20px;
+}
+
+body video{
+    margin: 20px;
+}
+
+main img{
+    margin: 20px 30px;
+}
+
+table {
+    width: 100%;
+    border: 1px solid white;
+}
+th, td {
+    width: 25%;
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid white;
+}
+
+dl{
+    margin-left: 0;
+    padding-left: 0;
+}
+
+dt {
+    margin: 20px 30px;
+}
+dd {
+    margin-left: 2em;
+    color: grey;
+}
+
+p,dl,table{
+    font-family: Calibri, sans-serif;
+    color: white;
+    font-size: 25px;
+    background: black;
+
+}
+
+p::first-letter {
+    font-size: 26px;
+}
+
+footer{
+    color: white;
+    font-size: 20px;
+
+}
+
+footer address {
+    margin: 20px 30px;
+}
+
+footer address a {
+    color: aqua;
+}
+
+article{
+    margin: 20px;
 }
