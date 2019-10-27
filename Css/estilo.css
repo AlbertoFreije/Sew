@@ -46,15 +46,16 @@ header nav a {
     font-size: 20px;
     word-spacing: 1px;
     margin:15px;
+    text-decoration-line: none;
 }
 
-main a{
+main section a{
     color: aqua;
     margin: 20px 30px;
 }
 
 
-main p{
+main section p{
     margin:20px 30px;
 }
 
@@ -74,7 +75,7 @@ main img{
     margin: 20px 30px;
 }
 
-article{
+main article{
     margin: 20px;
 }
 
@@ -114,16 +115,16 @@ dd {
     color: grey;
 }
 
-footer{
+main footer{
     color: white;
     font-size: 20px;
 
 }
 
-footer address {
+main footer address {
     margin: 20px 30px;
 }
 
-footer address a {
+main footer address a {
     color: aqua;
 }
