@@ -1,0 +1,129 @@
+
+html{
+    background-color: black;
+    margin: 0;
+}
+h1,h2,h3,h4,h5,h6{
+    background: dimgrey;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    padding: 0.1em;
+    text-align: center;
+    letter-spacing : 0.4em;
+    border-radius: 20px;
+}
+
+h1 {
+    font-family: "Impact", sans-serif ;
+    font-size: 3em;
+    text-align: center;
+    border: solid white;
+    margin: 10px -45px 20px -45px;
+}
+h2,h3,h4,h5,h6{
+    margin: 20px;
+    font-family: Calibri, sans-serif;
+    font-size: 1.5em;
+}
+
+body{
+    background: black;
+}
+
+header{
+    background: black;
+    padding: 2em;
+    margin: 20px;
+}
+
+header nav {
+    background: black;
+    text-align: center;
+}
+
+header nav a {
+    color: white;
+    font-size: 20px;
+    text-decoration-line: none;
+    margin: 15px;
+    padding: 4px;
+}
+
+main a{
+    color: aqua;
+    margin: 20px 30px;
+}
+
+
+main p{
+    text-align: justify;
+    margin:20px 30px;
+}
+
+p::first-letter {
+    font-size: 26px;
+}
+
+main audio{
+    margin: 20px;
+}
+
+main video{
+    margin: 20px;
+}
+
+main img{
+    margin: 20px 30px;
+}
+
+article{
+    margin: 20px;
+}
+
+p,dl,table{
+    font-family: Calibri, sans-serif;
+    color: white;
+    font-size: 25px;
+    background: black;
+
+}
+
+table {
+    width: 100%;
+    border: 1px solid white;
+}
+th, td {
+    width: 25%;
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid white;
+}
+
+dl{
+    margin-left: 0;
+    padding-left: 0;
+}
+
+dt {
+    margin: 20px 30px;
+}
+dd {
+    margin-left: 2em;
+    color: grey;
+}
+
+footer{
+    color: white;
+    font-size: 20px;
+
+}
+
+footer address {
+    margin: 20px 30px;
+}
+
+footer address a {
+    color: aqua;
+}
+
