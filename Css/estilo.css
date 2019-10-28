@@ -1,7 +1,9 @@
+/* a=0 b=0 c=1 -> Especificidad = 1 */
 html{
     background-color: black;
     margin: 0;
 }
+/* a=0 b=0 c=1 -> Especificidad = 1 */
 h1,h2,h3,h4,h5,h6{
     background: dimgrey;
     font-weight: bold;
@@ -12,34 +14,40 @@ h1,h2,h3,h4,h5,h6{
     letter-spacing : 0.4em;
     border-radius: 20px;
 }
-
+/* a=0 b=0 c=1 -> Especificidad = 1 */
 h1 {
     font-family: "Impact", sans-serif ;
     font-size: 3em;
     border: solid white;
     margin: 10px -45px 20px -45px;
 }
+/* a=0 b=0 c=1 -> Especificidad = 1 */
 h2,h3,h4,h5,h6{
     margin: 20px;
     font-family: Calibri, sans-serif;
     font-size: 1.5em;
 }
-
+/* a=0 b=0 c=1 -> Especificidad = 1 */
 body{
     background: black;
 }
+/* a=0 b=0 c=1 -> Especificidad = 1 */
+main{
+    margin: 0px;
+}
 
+/* a=0 b=0 c=1 -> Especificidad = 1 */
 header{
     background: black;
     margin: 15px;
     padding: 25px;
 }
-
+/* a=0 b=0 c=2 -> Especificidad = 2 */
 header nav {
     background: black;
     text-align: center;
 }
-
+/* a=0 b=0 c=3 -> Especificidad = 3 */
 header nav a {
     color: white;
     font-size: 20px;
@@ -47,45 +55,48 @@ header nav a {
     margin:15px;
     text-decoration-line: none;
 }
-
-main{
-    margin: 0px;
-}
-
+/* a=0 b=0 c=1 -> Especificidad = 1 */
 section{
     margin: 0px
 }
 
+/* a=0 b=0 c=3 -> Especificidad = 3 */
 main section a{
     color: aqua;
     margin: 20px 30px;
 }
 
-
+/* a=0 b=0 c=3 -> Especificidad = 3 */
 main section p{
     margin:20px 30px;
 }
 
+/* a=0 b=0 c=2 -> Especificidad = 2 */
 p::first-letter {
     font-size: 26px;
 }
 
+/* a=0 b=0 c=1 -> Especificidad = 1 */
 main audio{
     margin: 20px;
 }
 
+/* a=0 b=0 c=2 -> Especificidad = 2 */
 main video{
     margin: 20px;
 }
 
+/* a=0 b=0 c=2 -> Especificidad = 2 */
 main img{
     margin: 20px 30px;
 }
 
+/* a=0 b=0 c=2 -> Especificidad = 2 */
 main article{
     margin: 20px;
 }
 
+/* a=0 b=0 c=1 -> Especificidad = 1 */
 p,dl{
     font-family: Calibri, sans-serif;
     color: white;
@@ -94,6 +105,7 @@ p,dl{
 
 }
 
+/* a=0 b=0 c=1 -> Especificidad = 1 */
 table {
     font-family: Calibri, sans-serif;
     width: 20%;
@@ -102,6 +114,7 @@ table {
     color: white;
     background: black;
 }
+/* a=0 b=0 c=1 -> Especificidad = 1 */
 th, td {
     width: 60%;
     text-align: left;
@@ -109,29 +122,35 @@ th, td {
     border: 1px solid white;
 }
 
+/* a=0 b=0 c=1 -> Especificidad = 1 */
 dl{
     margin-left: 0;
     padding-left: 0;
 }
 
+/* a=0 b=0 c=1 -> Especificidad = 1 */
 dt {
     margin: 20px 30px;
 }
+/* a=0 b=0 c=1 -> Especificidad = 1 */
 dd {
     margin-left: 2em;
     color: grey;
 }
 
+/* a=0 b=0 c=1 -> Especificidad = 1 */
 footer{
     color: white;
     font-size: 20px;
 
 }
 
+/* a=0 b=0 c=2 -> Especificidad = 2 */
 footer address {
     margin: 20px 30px;
 }
 
+/* a=0 b=0 c=3 -> Especificidad = 3 */
 footer address a {
     color: aqua;
 }
