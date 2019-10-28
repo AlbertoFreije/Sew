@@ -60,14 +60,14 @@ section{
     margin: 0px
 }
 
-/* a=0 b=0 c=3 -> Especificidad = 3 */
-main section a{
+/* a=0 b=0 c=2 -> Especificidad = 2 */
+section a{
     color: aqua;
     margin: 20px 30px;
 }
 
-/* a=0 b=0 c=3 -> Especificidad = 3 */
-main section p{
+/* a=0 b=0 c=2 -> Especificidad = 2 */
+section p{
     margin:20px 30px;
 }
 
