@@ -77,22 +77,22 @@ p::first-letter {
 }
 
 /* a=0 b=0 c=1 -> Especificidad = 1 */
-main audio{
+main> audio{
     margin: 20px;
 }
 
 /* a=0 b=0 c=2 -> Especificidad = 2 */
-main video{
+main> video{
     margin: 20px;
 }
 
 /* a=0 b=0 c=2 -> Especificidad = 2 */
-main img{
+main> img{
     margin: 20px 30px;
 }
 
 /* a=0 b=0 c=2 -> Especificidad = 2 */
-main article{
+main> article{
     margin: 20px;
 }
 
